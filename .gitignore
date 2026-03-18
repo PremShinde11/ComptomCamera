@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyTorch
+*.pth
+*.pt
+
+# Matplotlib plots (if generated)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+# Data directories (CSV files are too large)
+data/
+!data/.gitkeep
+
+# Model checkpoints (optional - uncomment if you want to exclude them)
+# models/*.pth
+# models/best_model.pth
+
+# Results (optional - uncomment if you want to exclude generated plots)
+# results/*.png
+# results/*.csv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Training logs (optional - keep these for tracking)
+# models/training_log.csv
